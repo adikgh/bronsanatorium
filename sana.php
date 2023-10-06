@@ -24,7 +24,7 @@
 							<div class="sanator_con">
 								<div class="sanator_name"><?=$ana['name_'.$lang]?></div>
 								<div class="sanator_cin">
-									<div class="bl5_icp"><?=t::w('from1').fun::p($ana['id'])?> тг. <?=t::w('from2')?></div>
+									<div class="bl5_icp">от <?=fun::p($ana['id'])?> тг.</div>
 								</div>
 								<div class="sanator_zabr">
 									<div class="btn disb_zab">Забронировать</div>

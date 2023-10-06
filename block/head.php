@@ -1,5 +1,5 @@
 <? $menu = mysqli_fetch_array(db::query("select * from `site_menu` where name = '$menu_name' and type = 'main'")); ?>
-<? if ($menu_name == 'sana') $menu['title'] = t::w('sana').$sana['name'].t::w('sana1'); ?>
+<? // if ($menu_name == 'sana') $menu['title'] = t::w('sana').$sana['name'].t::w('sana1'); ?>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
