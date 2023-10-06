@@ -72,7 +72,7 @@
 				<div class="foot_i">
 					<div class="sos_set">
 						<div class="top_site_si"><a target="_blank" href="https://www.instagram.com/<?=$site['instagram']?>"><i class="fab fa-instagram"></i></a></div>
-						<div class="top_site_si"><a target="_blank" href="https://www.facebook.com/<?=$site['facebook']?>"><i class="fab fa-facebook"></i></i></a></div>
+						<!-- <div class="top_site_si"><a target="_blank" href="https://www.facebook.com/<?=$site['facebook']?>"><i class="fab fa-facebook"></i></i></a></div> -->
 						<div class="top_site_si"><a target="_blank" href="https://wa.me/<?=$site['whatsapp']?>?text=Я%20заинтересован%20по%20поводу%20санаторий%20..."><i class="fab fa-whatsapp"></i></a></div>
 					</div>
 				</div>

@@ -12,12 +12,7 @@
    }
    $core = new core;
 
-
-   // lang
-   $lang = 'ru';
-   if (isset($_GET['lang'])) if ($_GET['lang'] == 'kz' || $_GET['lang'] == 'ru') $_SESSION['lang'] = $_GET['lang'];
-   if (isset($_SESSION['lang'])) $lang = $_SESSION['lang'];
-
+   // 
    $ver = 1.102;
    $site = mysqli_fetch_array(db::query("select * from `site` where id = 1"));
    $site_set = [
@@ -36,6 +31,7 @@
    $css = [];
    $js = [];
 	$header = true;
+   $lang = 'ru';
 
    // 
    $url = $_SERVER['REQUEST_URI'];

@@ -22,13 +22,13 @@
 <meta property="og:image" content="/assets/img/logo/logo.png" />
 
 <!-- apple -->
-<meta name="application-name" lang="<?=$site['lang']?>" content="<?=$site['site']?>">
+<meta name="application-name" lang="<?=$lang?>" content="<?=$site['site']?>">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 <!-- ms -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="cleartype" content="on">
-<meta name="msapplication-tooltip" content="<?=$site['title_'.$lang]?>">
+<meta name="msapplication-tooltip" content="<?=$menu['title_'.$lang]?>">
 <meta name="msapplication-TileColor" content="">
 <meta name="msapplication-starturl" content="https://<?=$site['site']?>">
 
