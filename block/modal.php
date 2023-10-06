@@ -1,5 +1,5 @@
 <!--  -->
-	<a target="_blank" href="tel:<?=$site[phone]?>">
+	<a target="_blank" href="tel:<?=$site['phone']?>">
 		<div type="button" class="callback-bt">
 		   <i class="fa fa-phone"></i>
 		</div>

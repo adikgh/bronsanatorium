@@ -21,7 +21,7 @@
 		};
 
 		$token = "1082028620:AAGRXcmhEtOlK3Z29Fa7Vq6JfIK1Uwdw-P4";
-		$chat_id = "-1001942352953";
+		$chat_id = "-1001940023370";
 		$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
 
 		if ($sendToTelegram) echo "yes";
